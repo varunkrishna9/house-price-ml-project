@@ -1,0 +1,63 @@
+{
+  "model_version": "1.0.0",
+  "algorithm": "GradientBoostingRegressor",
+  "target": "Price",
+  "dataset_rows": 300,
+  "dataset_columns": 8,
+  "train_test_split": "80/20, random_state=42",
+  "features_before_engineering": [
+    "Area",
+    "Bedrooms",
+    "Bathrooms",
+    "Age",
+    "Location",
+    "Property_Type"
+  ],
+  "engineered_features": [
+    "Total_Rooms",
+    "Area_per_Bedroom",
+    "Bathrooms_per_Bedroom",
+    "Age_Squared",
+    "Area_Log"
+  ],
+  "numeric_features": [
+    "Area",
+    "Bedrooms",
+    "Bathrooms",
+    "Age",
+    "Total_Rooms",
+    "Area_per_Bedroom",
+    "Bathrooms_per_Bedroom",
+    "Age_Squared",
+    "Area_Log"
+  ],
+  "categorical_features": [
+    "Location",
+    "Property_Type"
+  ],
+  "metrics_test": {
+    "MAE": 993299.720230479,
+    "RMSE": 1459544.9731775008,
+    "R2": 0.9850420975628844,
+    "MAPE": 0.04751686817352155
+  },
+  "cross_validation": {
+    "r2_mean": 0.9893693041520534,
+    "r2_std": 0.0025554863247720196,
+    "mae_mean": 977436.3856828453,
+    "rmse_mean": 1274201.5931961853
+  },
+  "allowed_locations": [
+    "City Center",
+    "Rural",
+    "Suburb"
+  ],
+  "allowed_property_types": [
+    "Apartment",
+    "House",
+    "Villa"
+  ],
+  "training_library_versions": {
+    "scikit_learn": "1.8.0"
+  }
+}

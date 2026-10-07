@@ -1,0 +1,2 @@
+Sample input: {"Area": 1200, "Bedrooms": 3, "Bathrooms": 2, "Age": 5, "Location": "City Center", "Property_Type": "Apartment"}
+Predicted price (model v1.0.0): ₹17,279,185

@@ -1,0 +1,9 @@
+Column,Type,Example,Description
+Property_ID,Identifier,PROP0001,Excluded from model
+Area,Numeric,3712,Property area in square feet
+Bedrooms,Integer,4,Number of bedrooms
+Bathrooms,Integer,3,Number of bathrooms
+Age,Integer,10,Property age in years
+Location,Categorical,City Center,Location category
+Property_Type,Categorical,Apartment,Property type
+Price,Numeric,22260000,Target property price in INR

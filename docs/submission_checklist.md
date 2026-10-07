@@ -1,0 +1,18 @@
+# Submission Checklist
+- [x] Business problem
+- [x] Setup instructions
+- [x] Organized source hierarchy
+- [x] Data dictionary
+- [x] Feature engineering
+- [x] 3 ML algorithms
+- [x] Multiple metrics
+- [x] Cross-validation
+- [x] Feature importance
+- [x] Versioned model
+- [x] Web UI
+- [x] REST API
+- [x] Input validation/error handling
+- [x] Tests
+- [x] Technical/API/troubleshooting docs
+- [ ] Add local app screenshots after running
+- [ ] Push to GitHub
